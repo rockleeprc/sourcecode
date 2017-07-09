@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/dist/org.springframework.beans-3.0.5.RELEASE.jar" sourcepath="C:/Users/quickselect/.m2/repository/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/dist/org.springframework.context.support-3.0.5.RELEASE.jar" sourcepath="D:/masterSpring/spring/src/org.springframework.context.support-sources-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/dist/org.springframework.context-3.0.5.RELEASE.jar" sourcepath="C:/Users/quickselect/.m2/repository/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/dist/org.springframework.core-3.0.5.RELEASE.jar" sourcepath="C:/Users/quickselect/.m2/repository/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/dist/org.springframework.expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.apache.log4j/com.springsource.org.apache.log4j/1.2.15/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.apache.commons/com.springsource.org.apache.commons.lang/2.1.0/com.springsource.org.apache.commons.lang-2.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.freemarker/com.springsource.freemarker/2.3.15/com.springsource.freemarker-2.3.15.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/javax.mail/com.springsource.javax.mail/1.4.0/com.springsource.javax.mail-1.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/dist/org.springframework.test-3.0.5.RELEASE.jar" sourcepath="C:/Users/quickselect/.m2/repository/org/springframework/spring-test/3.0.5.RELEASE/spring-test-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/dist/org.springframework.web.servlet-3.0.5.RELEASE.jar" sourcepath="D:/masterSpring/spring/src/org.springframework.web.servlet-sources-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/dist/org.springframework.asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/dist/org.springframework.web-3.0.5.RELEASE.jar" sourcepath="D:/masterSpring/spring/src/org.springframework.web-sources-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/tomcat/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.joda/com.springsource.org.joda.time/1.6.0/com.springsource.org.joda.time-1.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/dist/org.springframework.oxm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.codehaus.castor/com.springsource.org.castor/1.2.0/com.springsource.org.castor-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/com.thoughtworks.xstream/com.springsource.com.thoughtworks.xstream/1.3.1/com.springsource.com.thoughtworks.xstream-1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/javax.validation/com.springsource.javax.validation/1.0.0.GA/com.springsource.javax.validation-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.hibernate/com.springsource.org.hibernate.validator/4.1.0.GA/com.springsource.org.hibernate.validator-4.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/extraLib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/extraLib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/extraLib/jackson-all-1.6.9.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.aspectj/com.springsource.org.aspectj.tools/1.6.6.RELEASE/com.springsource.org.aspectj.tools-1.6.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.apache.commons/com.springsource.org.apache.commons.beanutils/1.8.0/com.springsource.org.apache.commons.beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.junit/com.springsource.org.junit/4.7.0/com.springsource.org.junit-4.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/extraLib/jettison-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/extraLib/poi-3.7.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/extraLib/poi-ooxml-3.7.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/extraLib/poi-ooxml-schemas-3.7.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/com.lowagie.text/com.springsource.com.lowagie.text/2.0.8/com.springsource.com.lowagie.text-2.0.8.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/extraLib/iTextAsian.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.apache.commons/com.springsource.org.apache.commons.fileupload/1.2.0/com.springsource.org.apache.commons.fileupload-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.apache.commons/com.springsource.org.apache.commons.io/1.4.0/com.springsource.org.apache.commons.io-1.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.apache.velocity/com.springsource.org.apache.velocity/1.5.0/com.springsource.org.apache.velocity-1.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/net.sourceforge.jasperreports/com.springsource.net.sf.jasperreports/2.0.5/com.springsource.net.sf.jasperreports-2.0.5.jar"/>
+	<classpathentry kind="lib" path="D:/masterSpring/spring/projects/ivy-cache/repository/org.aopalliance/com.springsource.org.aopalliance/1.0.0/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
