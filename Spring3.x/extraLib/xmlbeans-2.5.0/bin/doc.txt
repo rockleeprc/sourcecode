@@ -1,5 +1,0 @@
-D:\masterspring\extraLib\xmlbeans-2.5.0\bin>scomp -out custom.jar custom.xsd -compiler javac customer.xsdconfig
-Time to build schema type system: 0.475 seconds
-Time to generate code: 0.175 seconds
-Time to compile code: 1.22 seconds
-Compiled types to: custom.jar
