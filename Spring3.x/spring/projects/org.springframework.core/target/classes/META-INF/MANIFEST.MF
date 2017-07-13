@@ -1,0 +1,64 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.core;version="3.0.5.BUILD-20110117
+ 152612";uses:="org.springframework.asm,org.springframework.asm.common
+ s,org.springframework.util",org.springframework.core.annotation;versi
+ on="3.0.5.BUILD-20110117152612";uses:="org.springframework.core",org.
+ springframework.core.convert;version="3.0.5.BUILD-20110117152612";use
+ s:="org.springframework.core",org.springframework.core.convert.conver
+ ter;version="3.0.5.BUILD-20110117152612";uses:="org.springframework.c
+ ore.convert",org.springframework.core.convert.support;version="3.0.5.
+ BUILD-20110117152612";uses:="org.apache.commons.logging,org.springfra
+ mework.core,org.springframework.core.convert,org.springframework.core
+ .convert.converter",org.springframework.core.enums;version="3.0.5.BUI
+ LD-20110117152612";uses:="org.springframework.util",org.springframewo
+ rk.core.io;version="3.0.5.BUILD-20110117152612",org.springframework.c
+ ore.io.support;version="3.0.5.BUILD-20110117152612";uses:="org.spring
+ framework.core.io,org.springframework.util",org.springframework.core.
+ serializer;version="3.0.5.BUILD-20110117152612",org.springframework.c
+ ore.serializer.support;version="3.0.5.BUILD-20110117152612";uses:="or
+ g.springframework.core,org.springframework.core.convert.converter,org
+ .springframework.core.serializer",org.springframework.core.style;vers
+ ion="3.0.5.BUILD-20110117152612",org.springframework.core.task;versio
+ n="3.0.5.BUILD-20110117152612";uses:="org.springframework.util",org.s
+ pringframework.core.task.support;version="3.0.5.BUILD-20110117152612"
+ ;uses:="org.springframework.core.task",org.springframework.core.type;
+ version="3.0.5.BUILD-20110117152612",org.springframework.core.type.cl
+ assreading;version="3.0.5.BUILD-20110117152612";uses:="org.springfram
+ ework.asm,org.springframework.core.io,org.springframework.core.type,o
+ rg.springframework.util",org.springframework.core.type.filter;version
+ ="3.0.5.BUILD-20110117152612";uses:="org.springframework.core.type,or
+ g.springframework.core.type.classreading",org.springframework.util;ve
+ rsion="3.0.5.BUILD-20110117152612";uses:="org.apache.commons.logging"
+ ,org.springframework.util.comparator;version="3.0.5.BUILD-20110117152
+ 612",org.springframework.util.xml;version="3.0.5.BUILD-20110117152612
+ ";uses:="javax.xml.namespace,javax.xml.stream,javax.xml.stream.util,j
+ avax.xml.transform,javax.xml.transform.sax,org.apache.commons.logging
+ ,org.w3c.dom,org.xml.sax,org.xml.sax.ext"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.5.BUILD-20110117152612
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.core
+Import-Package: javax.xml.namespace;version="0";resolution:="optional"
+ ,javax.xml.stream;version="0";resolution:="optional",javax.xml.stream
+ .events;version="0";resolution:="optional",javax.xml.stream.util;vers
+ ion="0";resolution:="optional",javax.xml.transform;version="0";resolu
+ tion:="optional",javax.xml.transform.sax;version="0";resolution:="opt
+ ional",javax.xml.transform.stax;version="0";resolution:="optional",or
+ g.apache.commons.logging;version="[1.1.1, 2.0.0)",org.apache.log4j;ve
+ rsion="[1.2.15, 2.0.0)";resolution:="optional",org.apache.log4j.xml;v
+ ersion="[1.2.15, 2.0.0)";resolution:="optional",org.aspectj.bridge;ve
+ rsion="[1.5.4, 2.0.0)";resolution:="optional",org.aspectj.weaver;vers
+ ion="[1.5.4, 2.0.0)";resolution:="optional",org.aspectj.weaver.bcel;v
+ ersion="[1.5.4, 2.0.0)";resolution:="optional",org.aspectj.weaver.pat
+ terns;version="[1.5.4, 2.0.0)";resolution:="optional",org.eclipse.cor
+ e.runtime;common="split";version="0";resolution:="optional",org.jboss
+ .vfs;version="[3.0.0, 4.0.0)";resolution:="optional",org.jboss.virtua
+ l;version="[2.1.0.GA, 3.0.0)";resolution:="optional",org.springframew
+ ork.asm;version="[3.0.5,3.0.6)";resolution:="optional",org.springfram
+ ework.asm.commons;version="[3.0.5,3.0.6)";resolution:="optional",org.
+ w3c.dom;version="0";resolution:="optional",org.xml.sax;version="0";re
+ solution:="optional",org.xml.sax.ext;version="0";resolution:="optiona
+ l",org.xml.sax.helpers;version="0";resolution:="optional"
+

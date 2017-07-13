@@ -1,0 +1,95 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.jdbc;version="3.0.5.BUILD-20110117
+ 152612";uses:="org.springframework.dao",org.springframework.jdbc.conf
+ ig;version="3.0.5.BUILD-20110117152612";uses:="org.springframework.be
+ ans.factory.config,org.springframework.beans.factory.support,org.spri
+ ngframework.beans.factory.xml,org.springframework.context,org.springf
+ ramework.core.io,org.w3c.dom",org.springframework.jdbc.core;version="
+ 3.0.5.BUILD-20110117152612";uses:="javax.sql,javax.sql.rowset,org.apa
+ che.commons.logging,org.springframework.beans,org.springframework.dao
+ ,org.springframework.jdbc,org.springframework.jdbc.support,org.spring
+ framework.jdbc.support.nativejdbc,org.springframework.jdbc.support.ro
+ wset",org.springframework.jdbc.core.metadata;version="3.0.5.BUILD-201
+ 10117152612";uses:="javax.sql,org.apache.commons.logging,org.springfr
+ amework.jdbc.core,org.springframework.jdbc.core.namedparam,org.spring
+ framework.jdbc.support,org.springframework.jdbc.support.nativejdbc",o
+ rg.springframework.jdbc.core.namedparam;version="3.0.5.BUILD-20110117
+ 152612";uses:="javax.sql,org.springframework.dao,org.springframework.
+ jdbc.core,org.springframework.jdbc.core.support,org.springframework.j
+ dbc.support,org.springframework.jdbc.support.rowset",org.springframew
+ ork.jdbc.core.simple;version="3.0.5.BUILD-20110117152612";uses:="java
+ x.sql,org.springframework.dao,org.springframework.jdbc.core,org.sprin
+ gframework.jdbc.core.namedparam,org.springframework.jdbc.core.support
+ ,org.springframework.jdbc.support,org.springframework.jdbc.support.na
+ tivejdbc",org.springframework.jdbc.core.support;version="3.0.5.BUILD-
+ 20110117152612";uses:="javax.sql,org.springframework.beans.factory.su
+ pport,org.springframework.dao,org.springframework.dao.support,org.spr
+ ingframework.jdbc,org.springframework.jdbc.core,org.springframework.j
+ dbc.support,org.springframework.jdbc.support.lob",org.springframework
+ .jdbc.datasource;version="3.0.5.BUILD-20110117152612";uses:="javax.sq
+ l,org.apache.commons.logging,org.springframework.beans.factory,org.sp
+ ringframework.jdbc,org.springframework.transaction,org.springframewor
+ k.transaction.support",org.springframework.jdbc.datasource.embedded;v
+ ersion="3.0.5.BUILD-20110117152612";uses:="javax.sql,org.springframew
+ ork.beans.factory,org.springframework.core.io,org.springframework.jdb
+ c.datasource,org.springframework.jdbc.datasource.init",org.springfram
+ ework.jdbc.datasource.init;version="3.0.5.BUILD-20110117152612";uses:
+ ="javax.sql,org.springframework.beans.factory,org.springframework.cor
+ e.io,org.springframework.core.io.support",org.springframework.jdbc.da
+ tasource.lookup;version="3.0.5.BUILD-20110117152612";uses:="javax.sql
+ ,org.springframework.beans.factory,org.springframework.dao,org.spring
+ framework.jdbc.datasource,org.springframework.jndi",org.springframewo
+ rk.jdbc.object;version="3.0.5.BUILD-20110117152612";uses:="javax.sql,
+ org.springframework.beans.factory,org.springframework.dao,org.springf
+ ramework.jdbc,org.springframework.jdbc.core,org.springframework.jdbc.
+ core.namedparam,org.springframework.jdbc.support",org.springframework
+ .jdbc.support;version="3.0.5.BUILD-20110117152612";uses:="javax.sql,o
+ rg.springframework.beans.factory,org.springframework.core,org.springf
+ ramework.core.io,org.springframework.dao",org.springframework.jdbc.su
+ pport.incrementer;version="3.0.5.BUILD-20110117152612";uses:="javax.s
+ ql,org.springframework.beans.factory,org.springframework.dao",org.spr
+ ingframework.jdbc.support.lob;version="3.0.5.BUILD-20110117152612";us
+ es:="javax.transaction,org.springframework.jdbc.support.nativejdbc,or
+ g.springframework.transaction.support",org.springframework.jdbc.suppo
+ rt.nativejdbc;version="3.0.5.BUILD-20110117152612",org.springframewor
+ k.jdbc.support.rowset;version="3.0.5.BUILD-20110117152612";uses:="org
+ .springframework.jdbc",org.springframework.jdbc.support.xml;version="
+ 3.0.5.BUILD-20110117152612";uses:="javax.xml.transform,org.springfram
+ ework.dao,org.springframework.jdbc.support,org.w3c.dom"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.5.BUILD-20110117152612
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring JDBC
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.jdbc
+Import-Package: com.ibm.websphere.rsadapter;version="0";resolution:="o
+ ptional",com.ibm.ws.rsadapter.jdbc;version="0";resolution:="optional"
+ ,com.mchange.v2.c3p0;version="[0.9.1, 2.0.0)";resolution:="optional",
+ com.sun.rowset;version="[1.0.1, 2.0.0)";resolution:="optional",javax.
+ naming;version="0";resolution:="optional",javax.sql;version="0",javax
+ .sql.rowset;version="0",javax.transaction;version="[1.0.1, 2.0.0)";re
+ solution:="optional",javax.xml.transform;version="0";resolution:="opt
+ ional",javax.xml.transform.dom;version="0";resolution:="optional",ora
+ cle.jdbc;version="0";resolution:="optional",oracle.sql;version="0";re
+ solution:="optional",org.apache.commons.logging;version="[1.1.1, 2.0.
+ 0)",org.apache.derby.impl.io;version="[10.5.0, 11.0.0)";resolution:="
+ optional",org.apache.derby.jdbc;version="[10.5.0, 11.0.0)";resolution
+ :="optional",org.h2;version="[1.0.0, 2.0.0)";resolution:="optional",o
+ rg.hsqldb;version="[1.8.0, 2.0.0)";resolution:="optional",org.jboss.r
+ esource.adapter.jdbc;version="0";resolution:="optional",org.springfra
+ mework.beans;version="[3.0.5,3.0.6)",org.springframework.beans.factor
+ y;version="[3.0.5,3.0.6)",org.springframework.beans.factory.config;ve
+ rsion="[3.0.5,3.0.6)",org.springframework.beans.factory.support;versi
+ on="[3.0.5,3.0.6)",org.springframework.beans.factory.xml;version="[3.
+ 0.5,3.0.6)",org.springframework.context;version="[3.0.5,3.0.6)",org.s
+ pringframework.core;version="[3.0.5,3.0.6)",org.springframework.core.
+ io;version="[3.0.5,3.0.6)",org.springframework.core.io.support;versio
+ n="[3.0.5,3.0.6)",org.springframework.dao;version="[3.0.5,3.0.6)",org
+ .springframework.dao.support;version="[3.0.5,3.0.6)",org.springframew
+ ork.jndi;version="[3.0.5,3.0.6)";resolution:="optional",org.springfra
+ mework.transaction;version="[3.0.5,3.0.6)",org.springframework.transa
+ ction.support;version="[3.0.5,3.0.6)",org.springframework.util;versio
+ n="[3.0.5,3.0.6)",org.springframework.util.xml;version="[3.0.5,3.0.6)
+ ",org.w3c.dom;version="0";resolution:="optional",weblogic.jdbc.extens
+ ions;version="0";resolution:="optional"
+

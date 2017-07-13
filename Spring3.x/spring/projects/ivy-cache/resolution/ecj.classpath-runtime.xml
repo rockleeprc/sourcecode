@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.eclipse.jdt"
+		module="com.springsource.org.eclipse.jdt.core.compiler.batch-caller"
+		revision="working"
+		conf="runtime"
+		confs="runtime"
+		date="20110117233025"/>
+	<dependencies>
+		<module organisation="org.eclipse.jdt" name="com.springsource.org.eclipse.jdt.core.compiler.batch" >
+			<revision name="3.3.0" status="release" pubdate="20090204135643" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile, runtime" position="0">
+				<metadata-artifact status="no" details="" size="1128" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.eclipse.jdt\com.springsource.org.eclipse.jdt.core.compiler.batch\3.3.0\ivy-3.3.0.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.eclipse.jdt/com.springsource.org.eclipse.jdt.core.compiler.batch/3.3.0/ivy-3.3.0.xml"/>
+				<caller organisation="org.eclipse.jdt" name="com.springsource.org.eclipse.jdt.core.compiler.batch-caller" conf="runtime" rev="3.3.0" rev-constraint-default="3.3.0" rev-constraint-dynamic="3.3.0" callerrev="working"/>
+				<artifacts>
+					<artifact name="com.springsource.org.eclipse.jdt.core.compiler.batch-sources" type="src" ext="jar" status="no" details="" size="1230148" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.eclipse.jdt\com.springsource.org.eclipse.jdt.core.compiler.batch\3.3.0\com.springsource.org.eclipse.jdt.core.compiler.batch-sources-3.3.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.eclipse.jdt/com.springsource.org.eclipse.jdt.core.compiler.batch/3.3.0/com.springsource.org.eclipse.jdt.core.compiler.batch-sources-3.3.0.jar"/>
+					</artifact>
+					<artifact name="com.springsource.org.eclipse.jdt.core.compiler.batch" type="jar" ext="jar" status="no" details="" size="1571059" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.eclipse.jdt\com.springsource.org.eclipse.jdt.core.compiler.batch\3.3.0\com.springsource.org.eclipse.jdt.core.compiler.batch-3.3.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.eclipse.jdt/com.springsource.org.eclipse.jdt.core.compiler.batch/3.3.0/com.springsource.org.eclipse.jdt.core.compiler.batch-3.3.0.jar"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11249" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.eclipse.jdt\com.springsource.org.eclipse.jdt.core.compiler.batch\3.3.0\license-3.3.0.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.eclipse.jdt/com.springsource.org.eclipse.jdt.core.compiler.batch/3.3.0/license-3.3.0.txt"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

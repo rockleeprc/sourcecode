@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.springframework"
+		module="org.springframework.beans"
+		revision="working@quickselect-PC"
+		conf="test"
+		confs="test"
+		date="20110117233025"/>
+	<dependencies>
+		<module organisation="org.easymock" name="com.springsource.org.easymock" >
+			<revision name="2.5.1" status="release" pubdate="20090702122434" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile" position="2">
+				<metadata-artifact status="no" details="" size="1056" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.easymock\com.springsource.org.easymock\2.5.1\ivy-2.5.1.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.easymock/com.springsource.org.easymock/2.5.1/ivy-2.5.1.xml"/>
+				<caller organisation="org.springframework" name="org.springframework.beans" conf="test" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="working@quickselect-PC"/>
+				<artifacts>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11358" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.easymock\com.springsource.org.easymock\2.5.1\license-2.5.1.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.easymock/com.springsource.org.easymock/2.5.1/license-2.5.1.txt"/>
+					</artifact>
+					<artifact name="com.springsource.org.easymock-sources" type="src" ext="jar" status="no" details="" size="82259" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.easymock\com.springsource.org.easymock\2.5.1\com.springsource.org.easymock-sources-2.5.1.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.easymock/com.springsource.org.easymock/2.5.1/com.springsource.org.easymock-sources-2.5.1.jar"/>
+					</artifact>
+					<artifact name="com.springsource.org.easymock" type="jar" ext="jar" status="no" details="" size="94522" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.easymock\com.springsource.org.easymock\2.5.1\com.springsource.org.easymock-2.5.1.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.easymock/com.springsource.org.easymock/2.5.1/com.springsource.org.easymock-2.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit" name="com.springsource.org.junit" >
+			<revision name="4.7.0" status="release" pubdate="20090810213844" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile, runtime" position="1">
+				<metadata-artifact status="no" details="" size="1044" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.junit\com.springsource.org.junit\4.7.0\ivy-4.7.0.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.junit/com.springsource.org.junit/4.7.0/ivy-4.7.0.xml"/>
+				<caller organisation="org.springframework" name="org.springframework.beans" conf="test" rev="4.7.0" rev-constraint-default="4.7.0" rev-constraint-dynamic="4.7.0" callerrev="working@quickselect-PC"/>
+				<artifacts>
+					<artifact name="com.springsource.org.junit-sources" type="src" ext="jar" status="no" details="" size="128482" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.junit\com.springsource.org.junit\4.7.0\com.springsource.org.junit-sources-4.7.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.junit/com.springsource.org.junit/4.7.0/com.springsource.org.junit-sources-4.7.0.jar"/>
+					</artifact>
+					<artifact name="com.springsource.org.junit" type="jar" ext="jar" status="no" details="" size="236652" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.junit\com.springsource.org.junit\4.7.0\com.springsource.org.junit-4.7.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.junit/com.springsource.org.junit/4.7.0/com.springsource.org.junit-4.7.0.jar"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11508" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.junit\com.springsource.org.junit\4.7.0\license-4.7.0.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.junit/com.springsource.org.junit/4.7.0/license-4.7.0.txt"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.log4j" name="com.springsource.org.apache.log4j" >
+			<revision name="1.2.15" status="release" pubdate="20090204130421" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile, runtime" position="0">
+				<metadata-artifact status="no" details="" size="1315" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.apache.log4j\com.springsource.org.apache.log4j\1.2.15\ivy-1.2.15.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.apache.log4j/com.springsource.org.apache.log4j/1.2.15/ivy-1.2.15.xml"/>
+				<caller organisation="org.springframework" name="org.springframework.beans" conf="test" rev="1.2.15" rev-constraint-default="1.2.15" rev-constraint-dynamic="1.2.15" callerrev="working@quickselect-PC"/>
+				<artifacts>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11358" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.apache.log4j\com.springsource.org.apache.log4j\1.2.15\license-1.2.15.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.apache.log4j/com.springsource.org.apache.log4j/1.2.15/license-1.2.15.txt"/>
+					</artifact>
+					<artifact name="com.springsource.org.apache.log4j" type="jar" ext="jar" status="no" details="" size="396713" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.apache.log4j\com.springsource.org.apache.log4j\1.2.15\com.springsource.org.apache.log4j-1.2.15.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.apache.log4j/com.springsource.org.apache.log4j/1.2.15/com.springsource.org.apache.log4j-1.2.15.jar"/>
+					</artifact>
+					<artifact name="com.springsource.org.apache.log4j-sources" type="src" ext="jar" status="no" details="" size="381898" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.apache.log4j\com.springsource.org.apache.log4j\1.2.15\com.springsource.org.apache.log4j-sources-1.2.15.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.apache.log4j/com.springsource.org.apache.log4j/1.2.15/com.springsource.org.apache.log4j-sources-1.2.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

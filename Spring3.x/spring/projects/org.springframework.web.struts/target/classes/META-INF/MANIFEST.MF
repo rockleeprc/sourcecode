@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.web.servlet.view.tiles;version="3.
+ 0.5.BUILD-20110117152612";uses:="javax.servlet,javax.servlet.http,org
+ .apache.struts.tiles,org.springframework.beans,org.springframework.be
+ ans.factory,org.springframework.context,org.springframework.context.s
+ upport,org.springframework.web.context,org.springframework.web.contex
+ t.support,org.springframework.web.servlet.view",org.springframework.w
+ eb.struts;version="3.0.5.BUILD-20110117152612";uses:="javax.servlet,j
+ avax.servlet.http,org.apache.commons.beanutils,org.apache.struts.acti
+ on,org.apache.struts.actions,org.apache.struts.config,org.apache.stru
+ ts.tiles,org.springframework.beans,org.springframework.beans.factory.
+ config,org.springframework.context.support,org.springframework.valida
+ tion,org.springframework.web.context"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.5.BUILD-20110117152612
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Web Struts
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.web.struts
+Import-Package: javax.servlet;version="[2.4.0, 3.0.0)",javax.servlet.h
+ ttp;version="[2.4.0, 3.0.0)",org.apache.commons.beanutils;version="[1
+ .7.0, 2.0.0)",org.apache.commons.logging;version="[1.0.4, 2.0.0)",org
+ .apache.struts.action;version="[1.2.9, 2.0.0)",org.apache.struts.acti
+ ons;version="[1.2.9, 2.0.0)",org.apache.struts.config;version="[1.2.9
+ , 2.0.0)",org.apache.struts.tiles;version="[1.2.9, 2.0.0)",org.apache
+ .struts.tiles.xmlDefinition;version="[1.2.9, 2.0.0)",org.apache.strut
+ s.util;version="[1.2.9, 2.0.0)",org.springframework.beans;version="[3
+ .0.5,3.0.6)",org.springframework.beans.factory;version="[3.0.5,3.0.6)
+ ",org.springframework.beans.factory.config;version="[3.0.5,3.0.6)",or
+ g.springframework.context;version="[3.0.5,3.0.6)",org.springframework
+ .context.support;version="[3.0.5,3.0.6)",org.springframework.util;ver
+ sion="[3.0.5,3.0.6)",org.springframework.validation;version="[3.0.5,3
+ .0.6)",org.springframework.web.context;version="[3.0.5,3.0.6)",org.sp
+ ringframework.web.context.support;version="[3.0.5,3.0.6)",org.springf
+ ramework.web.servlet.support;version="[3.0.5,3.0.6)",org.springframew
+ ork.web.servlet.view;version="[3.0.5,3.0.6)",org.springframework.web.
+ util;version="[3.0.5,3.0.6)"
+

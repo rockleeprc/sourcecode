@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.aspectj"
+		module="com.springsource.org.aspectj.tools-caller"
+		revision="working"
+		conf="runtime"
+		confs="runtime"
+		date="20110117232907"/>
+	<dependencies>
+		<module organisation="org.aspectj" name="com.springsource.org.aspectj.tools" >
+			<revision name="1.6.6.RELEASE" status="release" pubdate="20091007160325" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile, runtime" position="0">
+				<metadata-artifact status="no" details="" size="1241" time="0" location="D:\masterSpring\spring\projects\org.springframework.aspects\..\ivy-cache\repository\org.aspectj\com.springsource.org.aspectj.tools\1.6.6.RELEASE\ivy-1.6.6.RELEASE.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.aspectj/com.springsource.org.aspectj.tools/1.6.6.RELEASE/ivy-1.6.6.RELEASE.xml"/>
+				<caller organisation="org.aspectj" name="com.springsource.org.aspectj.tools-caller" conf="runtime" rev="1.6.6.RELEASE" rev-constraint-default="1.6.6.RELEASE" rev-constraint-dynamic="1.6.6.RELEASE" callerrev="working"/>
+				<artifacts>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11249" time="0" location="D:\masterSpring\spring\projects\org.springframework.aspects\..\ivy-cache\repository\org.aspectj\com.springsource.org.aspectj.tools\1.6.6.RELEASE\license-1.6.6.RELEASE.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.aspectj/com.springsource.org.aspectj.tools/1.6.6.RELEASE/license-1.6.6.RELEASE.txt"/>
+					</artifact>
+					<artifact name="com.springsource.org.aspectj.tools" type="jar" ext="jar" status="no" details="" size="8836683" time="0" location="D:\masterSpring\spring\projects\org.springframework.aspects\..\ivy-cache\repository\org.aspectj\com.springsource.org.aspectj.tools\1.6.6.RELEASE\com.springsource.org.aspectj.tools-1.6.6.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.aspectj/com.springsource.org.aspectj.tools/1.6.6.RELEASE/com.springsource.org.aspectj.tools-1.6.6.RELEASE.jar"/>
+					</artifact>
+					<artifact name="com.springsource.org.aspectj.tools-sources" type="src" ext="jar" status="no" details="" size="5366713" time="0" location="D:\masterSpring\spring\projects\org.springframework.aspects\..\ivy-cache\repository\org.aspectj\com.springsource.org.aspectj.tools\1.6.6.RELEASE\com.springsource.org.aspectj.tools-sources-1.6.6.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.aspectj/com.springsource.org.aspectj.tools/1.6.6.RELEASE/com.springsource.org.aspectj.tools-sources-1.6.6.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

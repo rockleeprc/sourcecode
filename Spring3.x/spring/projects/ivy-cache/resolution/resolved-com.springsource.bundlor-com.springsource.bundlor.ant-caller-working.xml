@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+	<info organisation="com.springsource.bundlor"
+		module="com.springsource.bundlor.ant-caller"
+		revision="working"
+		status="integration"
+		publication="20110117232931"
+		default="true"
+	/>
+	<configurations>
+		<conf name="ant" visibility="public"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="com.springsource.bundlor" name="com.springsource.bundlor.ant" rev="1.0.0.RELEASE" force="true" conf="ant->ant"/>
+	</dependencies>
+</ivy-module>

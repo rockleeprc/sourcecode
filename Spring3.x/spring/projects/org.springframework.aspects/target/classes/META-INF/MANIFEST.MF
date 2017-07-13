@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.beans.factory.aspectj;version="3.0
+ .5.BUILD-20110117152612";uses:="org.aspectj.internal.lang.annotation,
+ org.aspectj.lang,org.aspectj.lang.annotation,org.springframework.bean
+ s,org.springframework.beans.factory,org.springframework.beans.factory
+ .annotation,org.springframework.beans.factory.wiring",org.springframe
+ work.mock.staticmock;version="3.0.5.BUILD-20110117152612";uses:="org.
+ aspectj.lang,org.aspectj.lang.annotation,org.aspectj.runtime.internal
+ ",org.springframework.orm.jpa.aspectj;version="3.0.5.BUILD-2011011715
+ 2612";uses:="org.aspectj.lang.annotation",org.springframework.schedul
+ ing.aspectj;version="3.0.5.BUILD-20110117152612";uses:="org.aspectj.i
+ nternal.lang.annotation,org.aspectj.lang,org.aspectj.lang.annotation,
+ org.aspectj.runtime.internal",org.springframework.transaction.aspectj
+ ;version="3.0.5.BUILD-20110117152612";uses:="org.aspectj.lang,org.asp
+ ectj.lang.annotation,org.springframework.transaction.interceptor"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.5.BUILD-20110117152612
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Aspects
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.aspects
+Import-Package: org.apache.commons.logging;version="[1.1.1, 2.0.0)",or
+ g.aspectj.internal.lang.annotation;version="[1.5.4, 2.0.0)";resolutio
+ n:="optional",org.aspectj.lang;version="[1.5.4, 2.0.0)";resolution:="
+ optional",org.aspectj.lang.annotation;version="[1.5.4, 2.0.0)";resolu
+ tion:="optional",org.aspectj.lang.reflect;version="[1.5.4, 2.0.0)";re
+ solution:="optional",org.aspectj.runtime.internal;version="[1.5.4, 2.
+ 0.0)";resolution:="optional",org.springframework.beans;version="[3.0.
+ 5,3.0.6)",org.springframework.beans.factory;version="[3.0.5,3.0.6)",o
+ rg.springframework.beans.factory.annotation;version="[3.0.5,3.0.6)",o
+ rg.springframework.beans.factory.wiring;version="[3.0.5,3.0.6)",org.s
+ pringframework.core.task;version="[3.0.5,3.0.6)";resolution:="optiona
+ l",org.springframework.core.task.support;version="[3.0.5,3.0.6)";reso
+ lution:="optional",org.springframework.dao;version="[3.0.5,3.0.6)";re
+ solution:="optional",org.springframework.orm.jpa;version="[3.0.5,3.0.
+ 6)";resolution:="optional",org.springframework.transaction.annotation
+ ;version="[3.0.5,3.0.6)";resolution:="optional",org.springframework.t
+ ransaction.interceptor;version="[3.0.5,3.0.6)";resolution:="optional"
+

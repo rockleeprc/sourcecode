@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.springframework"
+		module="org.springframework.beans"
+		revision="working@quickselect-PC"
+		conf="provided"
+		confs="compile, optional, provided, dm-server-provided"
+		date="20110117233024"/>
+	<dependencies>
+		<module organisation="javax.inject" name="com.springsource.javax.inject" >
+			<revision name="1.0.0" status="release" pubdate="20091014135554" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile" position="1">
+				<metadata-artifact status="no" details="" size="1056" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\javax.inject\com.springsource.javax.inject\1.0.0\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/javax.inject/com.springsource.javax.inject/1.0.0/ivy-1.0.0.xml"/>
+				<caller organisation="org.springframework" name="org.springframework.beans" conf="provided" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@quickselect-PC"/>
+				<artifacts>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11358" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\javax.inject\com.springsource.javax.inject\1.0.0\license-1.0.0.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/javax.inject/com.springsource.javax.inject/1.0.0/license-1.0.0.txt"/>
+					</artifact>
+					<artifact name="com.springsource.javax.inject-sources" type="src" ext="jar" status="no" details="" size="11232" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\javax.inject\com.springsource.javax.inject\1.0.0\com.springsource.javax.inject-sources-1.0.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/javax.inject/com.springsource.javax.inject/1.0.0/com.springsource.javax.inject-sources-1.0.0.jar"/>
+					</artifact>
+					<artifact name="com.springsource.javax.inject" type="jar" ext="jar" status="no" details="" size="2928" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\javax.inject\com.springsource.javax.inject\1.0.0\com.springsource.javax.inject-1.0.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/javax.inject/com.springsource.javax.inject/1.0.0/com.springsource.javax.inject-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.el" name="com.springsource.javax.el" >
+			<revision name="1.0.0" status="release" pubdate="20090204143204" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile" position="0">
+				<metadata-artifact status="no" details="" size="1040" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\javax.el\com.springsource.javax.el\1.0.0\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/javax.el/com.springsource.javax.el/1.0.0/ivy-1.0.0.xml"/>
+				<caller organisation="org.springframework" name="org.springframework.beans" conf="provided" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@quickselect-PC"/>
+				<artifacts>
+					<artifact name="com.springsource.javax.el" type="jar" ext="jar" status="no" details="" size="29892" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\javax.el\com.springsource.javax.el\1.0.0\com.springsource.javax.el-1.0.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/javax.el/com.springsource.javax.el/1.0.0/com.springsource.javax.el-1.0.0.jar"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="16376" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\javax.el\com.springsource.javax.el\1.0.0\license-1.0.0.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/javax.el/com.springsource.javax.el/1.0.0/license-1.0.0.txt"/>
+					</artifact>
+					<artifact name="com.springsource.javax.el-sources" type="src" ext="jar" status="no" details="" size="54581" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\javax.el\com.springsource.javax.el\1.0.0\com.springsource.javax.el-sources-1.0.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/javax.el/com.springsource.javax.el/1.0.0/com.springsource.javax.el-sources-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

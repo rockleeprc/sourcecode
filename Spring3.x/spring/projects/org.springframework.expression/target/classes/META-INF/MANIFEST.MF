@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.expression;version="3.0.5.BUILD-20
+ 110117152612";uses:="org.springframework.core.convert",org.springfram
+ ework.expression.common;version="3.0.5.BUILD-20110117152612";uses:="o
+ rg.springframework.core.convert,org.springframework.expression",org.s
+ pringframework.expression.spel;version="3.0.5.BUILD-20110117152612";u
+ ses:="org.springframework.core.convert,org.springframework.expression
+ ",org.springframework.expression.spel.ast;version="3.0.5.BUILD-201101
+ 17152612";uses:="org.springframework.expression,org.springframework.e
+ xpression.spel,org.springframework.expression.spel.support",org.sprin
+ gframework.expression.spel.standard;version="3.0.5.BUILD-201101171526
+ 12";uses:="org.springframework.core.convert,org.springframework.expre
+ ssion,org.springframework.expression.common,org.springframework.expre
+ ssion.spel,org.springframework.expression.spel.ast",org.springframewo
+ rk.expression.spel.support;version="3.0.5.BUILD-20110117152612";uses:
+ ="org.springframework.core.convert,org.springframework.expression,org
+ .springframework.expression.spel"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.5.BUILD-20110117152612
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Expression Language
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.expression
+Import-Package: org.springframework.core;version="[3.0.5,3.0.6)",org.s
+ pringframework.core.convert;version="[3.0.5,3.0.6)",org.springframewo
+ rk.core.convert.support;version="[3.0.5,3.0.6)",org.springframework.u
+ til;version="[3.0.5,3.0.6)"
+

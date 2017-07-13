@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.springframework"
+		module="org.springframework.beans"
+		revision="working@quickselect-PC"
+		conf="dm-server-provided"
+		confs="compile, optional, provided, dm-server-provided"
+		date="20110117233024"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

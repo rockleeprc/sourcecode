@@ -1,0 +1,88 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.cache.ehcache;version="3.0.5.BUILD
+ -20110117152612";uses:="net.sf.ehcache,net.sf.ehcache.bootstrap,net.s
+ f.ehcache.constructs.blocking,net.sf.ehcache.store,org.springframewor
+ k.beans.factory,org.springframework.core.io",org.springframework.mail
+ ;version="3.0.5.BUILD-20110117152612";uses:="org.springframework.core
+ ",org.springframework.mail.javamail;version="3.0.5.BUILD-201101171526
+ 12";uses:="javax.activation,javax.mail,javax.mail.internet,org.spring
+ framework.beans.factory,org.springframework.core.io,org.springframewo
+ rk.mail",org.springframework.scheduling.commonj;version="3.0.5.BUILD-
+ 20110117152612";uses:="commonj.timers,commonj.work,javax.naming,org.s
+ pringframework.beans.factory,org.springframework.context,org.springfr
+ amework.jndi,org.springframework.scheduling,org.springframework.util"
+ ,org.springframework.scheduling.quartz;version="3.0.5.BUILD-201101171
+ 52612";uses:="javax.sql,org.quartz,org.quartz.impl.jdbcjobstore,org.q
+ uartz.simpl,org.quartz.spi,org.quartz.utils,org.springframework.beans
+ .factory,org.springframework.beans.support,org.springframework.contex
+ t,org.springframework.core,org.springframework.core.io,org.springfram
+ ework.scheduling,org.springframework.transaction,org.springframework.
+ util",org.springframework.ui.freemarker;version="3.0.5.BUILD-20110117
+ 152612";uses:="freemarker.cache,freemarker.template,org.springframewo
+ rk.beans.factory,org.springframework.context,org.springframework.core
+ .io",org.springframework.ui.jasperreports;version="3.0.5.BUILD-201101
+ 17152612";uses:="net.sf.jasperreports.engine",org.springframework.ui.
+ velocity;version="3.0.5.BUILD-20110117152612";uses:="org.apache.commo
+ ns.collections,org.apache.velocity.app,org.apache.velocity.exception,
+ org.apache.velocity.runtime,org.apache.velocity.runtime.log,org.apach
+ e.velocity.runtime.resource,org.apache.velocity.runtime.resource.load
+ er,org.springframework.beans.factory,org.springframework.context,org.
+ springframework.core.io"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.5.BUILD-20110117152612
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Context Support
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.context.support
+Import-Package: commonj.timers;version="[1.1.0, 2.0.0)";resolution:="o
+ ptional",commonj.work;version="[1.1.0, 2.0.0)";resolution:="optional"
+ ,freemarker.cache;version="[2.3.14, 3.0.0)";resolution:="optional",fr
+ eemarker.template;version="[2.3.14, 3.0.0)";resolution:="optional",ja
+ vax.activation;version="0";resolution:="optional",javax.mail;version=
+ "[1.4.0, 2.0.0)";resolution:="optional",javax.mail.internet;version="
+ [1.4.0, 2.0.0)";resolution:="optional",javax.naming;version="0";resol
+ ution:="optional",javax.sql;version="0";resolution:="optional",net.sf
+ .ehcache;version="[1.3.0, 3.0.0)";resolution:="optional",net.sf.ehcac
+ he.bootstrap;version="[1.3.0, 3.0.0)";resolution:="optional",net.sf.e
+ hcache.constructs.blocking;version="[1.3.0, 3.0.0)";resolution:="opti
+ onal",net.sf.ehcache.event;version="[1.3.0, 3.0.0)";resolution:="opti
+ onal",net.sf.ehcache.store;version="[1.3.0, 3.0.0)";resolution:="opti
+ onal",net.sf.jasperreports.engine;version="[2.0.5, 4.0.0)";resolution
+ :="optional",net.sf.jasperreports.engine.data;version="[2.0.5, 4.0.0)
+ ";resolution:="optional",net.sf.jasperreports.engine.export;version="
+ [2.0.5, 4.0.0)";resolution:="optional",org.apache.commons.collections
+ ;version="[3.2.0, 4.0.0)";resolution:="optional",org.apache.commons.l
+ ogging;version="[1.1.1, 2.0.0)";resolution:="optional",org.apache.vel
+ ocity;version="[1.5.0, 2.0.0)";resolution:="optional",org.apache.velo
+ city.app;version="[1.5.0, 2.0.0)";resolution:="optional",org.apache.v
+ elocity.context;version="[1.5.0, 2.0.0)";resolution:="optional",org.a
+ pache.velocity.exception;version="[1.5.0, 2.0.0)";resolution:="option
+ al",org.apache.velocity.runtime;version="[1.5.0, 2.0.0)";resolution:=
+ "optional",org.apache.velocity.runtime.log;version="[1.5.0, 2.0.0)";r
+ esolution:="optional",org.apache.velocity.runtime.resource;version="[
+ 1.5.0, 2.0.0)";resolution:="optional",org.apache.velocity.runtime.res
+ ource.loader;version="[1.5.0, 2.0.0)";resolution:="optional",org.quar
+ tz;version="[1.6.0, 2.0.0)";resolution:="optional",org.quartz.impl;ve
+ rsion="[1.6.0, 2.0.0)";resolution:="optional",org.quartz.impl.jdbcjob
+ store;version="[1.6.0, 2.0.0)";resolution:="optional",org.quartz.simp
+ l;version="[1.6.0, 2.0.0)";resolution:="optional",org.quartz.spi;vers
+ ion="[1.6.0, 2.0.0)";resolution:="optional",org.quartz.utils;version=
+ "[1.6.0, 2.0.0)";resolution:="optional",org.quartz.xml;version="[1.6.
+ 0, 2.0.0)";resolution:="optional",org.springframework.beans;version="
+ [3.0.5,3.0.6)";resolution:="optional",org.springframework.beans.facto
+ ry;version="[3.0.5,3.0.6)";resolution:="optional",org.springframework
+ .beans.support;version="[3.0.5,3.0.6)";resolution:="optional",org.spr
+ ingframework.context;version="[3.0.5,3.0.6)",org.springframework.core
+ ;version="[3.0.5,3.0.6)",org.springframework.core.io;version="[3.0.5,
+ 3.0.6)",org.springframework.core.io.support;version="[3.0.5,3.0.6)",o
+ rg.springframework.core.task;version="[3.0.5,3.0.6)",org.springframew
+ ork.jdbc.datasource;version="[3.0.5,3.0.6)";resolution:="optional",or
+ g.springframework.jdbc.support;version="[3.0.5,3.0.6)";resolution:="o
+ ptional",org.springframework.jndi;version="[3.0.5,3.0.6)";resolution:
+ ="optional",org.springframework.scheduling;version="[3.0.5,3.0.6)";re
+ solution:="optional",org.springframework.scheduling.support;version="
+ [3.0.5,3.0.6)";resolution:="optional",org.springframework.transaction
+ ;version="[3.0.5,3.0.6)";resolution:="optional",org.springframework.t
+ ransaction.support;version="[3.0.5,3.0.6)";resolution:="optional",org
+ .springframework.util;version="[3.0.5,3.0.6)"
+

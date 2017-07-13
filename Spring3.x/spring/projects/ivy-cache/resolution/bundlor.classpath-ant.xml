@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.springsource.bundlor"
+		module="com.springsource.bundlor.ant-caller"
+		revision="working"
+		conf="ant"
+		confs="ant"
+		date="20110117232931"/>
+	<dependencies>
+		<module organisation="com.springsource.bundlor" name="com.springsource.bundlor.ant" >
+			<revision name="1.0.0.RELEASE" status="release" pubdate="20100118150012" resolver="bundle-release-repository" artresolver="bundle-release-repository" downloaded="false" searched="false" default="false" conf="compile, aspects, ant" position="0">
+				<metadata-artifact status="no" details="" size="2470" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.bundlor\com.springsource.bundlor.ant\1.0.0.RELEASE\ivy-1.0.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.bundlor/com.springsource.bundlor.ant/1.0.0.RELEASE/ivy-1.0.0.RELEASE.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor.ant-caller" conf="ant" rev="1.0.0.RELEASE" rev-constraint-default="1.0.0.RELEASE" rev-constraint-dynamic="1.0.0.RELEASE" callerrev="working"/>
+				<artifacts>
+					<artifact name="com.springsource.bundlor.ant" type="jar" ext="jar" status="no" details="" size="17007" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.bundlor\com.springsource.bundlor.ant\1.0.0.RELEASE\com.springsource.bundlor.ant-1.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.bundlor/com.springsource.bundlor.ant/1.0.0.RELEASE/com.springsource.bundlor.ant-1.0.0.RELEASE.jar"/>
+					</artifact>
+					<artifact name="com.springsource.bundlor.ant-sources" type="src" ext="jar" status="no" details="" size="16225" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.bundlor\com.springsource.bundlor.ant\1.0.0.RELEASE\com.springsource.bundlor.ant-sources-1.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.bundlor/com.springsource.bundlor.ant/1.0.0.RELEASE/com.springsource.bundlor.ant-sources-1.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.springsource.bundlor" name="com.springsource.bundlor.blint" >
+			<revision name="1.0.0.RELEASE" status="release" pubdate="20100118150012" resolver="bundle-release-repository" artresolver="bundle-release-repository" downloaded="false" searched="false" default="false" conf="compile, aspects, runtime" position="10">
+				<metadata-artifact status="no" details="" size="2311" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.bundlor\com.springsource.bundlor.blint\1.0.0.RELEASE\ivy-1.0.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.bundlor/com.springsource.bundlor.blint/1.0.0.RELEASE/ivy-1.0.0.RELEASE.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor.ant" conf="compile, aspects, ant" rev="1.0.0.RELEASE" rev-constraint-default="1.0.0.RELEASE" rev-constraint-dynamic="latest.integration" callerrev="1.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="com.springsource.bundlor.blint-sources" type="src" ext="jar" status="no" details="" size="13518" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.bundlor\com.springsource.bundlor.blint\1.0.0.RELEASE\com.springsource.bundlor.blint-sources-1.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.bundlor/com.springsource.bundlor.blint/1.0.0.RELEASE/com.springsource.bundlor.blint-sources-1.0.0.RELEASE.jar"/>
+					</artifact>
+					<artifact name="com.springsource.bundlor.blint" type="jar" ext="jar" status="no" details="" size="13577" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.bundlor\com.springsource.bundlor.blint\1.0.0.RELEASE\com.springsource.bundlor.blint-1.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.bundlor/com.springsource.bundlor.blint/1.0.0.RELEASE/com.springsource.bundlor.blint-1.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.springsource.bundlor" name="com.springsource.bundlor" >
+			<revision name="1.0.0.RELEASE" status="release" pubdate="20100118150012" resolver="bundle-release-repository" artresolver="bundle-release-repository" downloaded="false" searched="false" default="false" conf="compile, aspects, runtime" position="4">
+				<metadata-artifact status="no" details="" size="2624" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.bundlor\com.springsource.bundlor\1.0.0.RELEASE\ivy-1.0.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.bundlor/com.springsource.bundlor/1.0.0.RELEASE/ivy-1.0.0.RELEASE.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor.ant" conf="compile, aspects, ant" rev="1.0.0.RELEASE" rev-constraint-default="1.0.0.RELEASE" rev-constraint-dynamic="latest.integration" callerrev="1.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="com.springsource.bundlor-sources" type="src" ext="jar" status="no" details="" size="120449" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.bundlor\com.springsource.bundlor\1.0.0.RELEASE\com.springsource.bundlor-sources-1.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.bundlor/com.springsource.bundlor/1.0.0.RELEASE/com.springsource.bundlor-sources-1.0.0.RELEASE.jar"/>
+					</artifact>
+					<artifact name="com.springsource.bundlor" type="jar" ext="jar" status="no" details="" size="133712" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.bundlor\com.springsource.bundlor\1.0.0.RELEASE\com.springsource.bundlor-1.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.bundlor/com.springsource.bundlor/1.0.0.RELEASE/com.springsource.bundlor-1.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.springsource.util" name="com.springsource.util.osgi" >
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20100112142137" resolver="bundle-release-repository" artresolver="bundle-release-repository" downloaded="false" searched="false" default="false" conf="compile, aspects, runtime" position="1">
+				<metadata-artifact status="no" details="" size="2425" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.osgi\2.0.0.RELEASE\ivy-2.0.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.osgi/2.0.0.RELEASE/ivy-2.0.0.RELEASE.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor.blint" conf="compile, aspects, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="1.0.0.RELEASE"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor" conf="compile, aspects, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="1.0.0.RELEASE"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor.ant" conf="compile, aspects, ant" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="1.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="com.springsource.util.osgi-sources" type="src" ext="jar" status="no" details="" size="98468" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.osgi\2.0.0.RELEASE\com.springsource.util.osgi-sources-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.osgi/2.0.0.RELEASE/com.springsource.util.osgi-sources-2.0.0.RELEASE.jar"/>
+					</artifact>
+					<artifact name="com.springsource.util.osgi" type="jar" ext="jar" status="no" details="" size="94153" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.osgi\2.0.0.RELEASE\com.springsource.util.osgi-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.osgi/2.0.0.RELEASE/com.springsource.util.osgi-2.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.springsource.util" name="com.springsource.util.parser.manifest" >
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20100112142137" resolver="bundle-release-repository" artresolver="bundle-release-repository" downloaded="false" searched="false" default="false" conf="compile, aspects, runtime" position="3">
+				<metadata-artifact status="no" details="" size="1704" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.parser.manifest\2.0.0.RELEASE\ivy-2.0.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.parser.manifest/2.0.0.RELEASE/ivy-2.0.0.RELEASE.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor.blint" conf="compile, aspects, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="1.0.0.RELEASE"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor" conf="compile, aspects, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="1.0.0.RELEASE"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor.ant" conf="compile, aspects, ant" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="1.0.0.RELEASE"/>
+				<caller organisation="com.springsource.util" name="com.springsource.util.osgi" conf="compile, aspects, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="latest.integration" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="com.springsource.util.parser.manifest-sources" type="src" ext="jar" status="no" details="" size="25267" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.parser.manifest\2.0.0.RELEASE\com.springsource.util.parser.manifest-sources-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.parser.manifest/2.0.0.RELEASE/com.springsource.util.parser.manifest-sources-2.0.0.RELEASE.jar"/>
+					</artifact>
+					<artifact name="com.springsource.util.parser.manifest" type="jar" ext="jar" status="no" details="" size="24242" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.parser.manifest\2.0.0.RELEASE\com.springsource.util.parser.manifest-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.parser.manifest/2.0.0.RELEASE/com.springsource.util.parser.manifest-2.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.springsource.util" name="com.springsource.util.math" >
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20100112142137" resolver="bundle-release-repository" artresolver="bundle-release-repository" downloaded="false" searched="false" default="false" conf="compile, aspects, runtime" position="9">
+				<metadata-artifact status="no" details="" size="1671" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.math\2.0.0.RELEASE\ivy-2.0.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.math/2.0.0.RELEASE/ivy-2.0.0.RELEASE.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor.blint" conf="compile, aspects, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="1.0.0.RELEASE"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor" conf="compile, aspects, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="1.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="com.springsource.util.math-sources" type="src" ext="jar" status="no" details="" size="8469" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.math\2.0.0.RELEASE\com.springsource.util.math-sources-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.math/2.0.0.RELEASE/com.springsource.util.math-sources-2.0.0.RELEASE.jar"/>
+					</artifact>
+					<artifact name="com.springsource.util.math" type="jar" ext="jar" status="no" details="" size="8384" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.math\2.0.0.RELEASE\com.springsource.util.math-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.math/2.0.0.RELEASE/com.springsource.util.math-2.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.springsource.util" name="com.springsource.util.common" >
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20100112142137" resolver="bundle-release-repository" artresolver="bundle-release-repository" downloaded="false" searched="false" default="false" conf="compile, aspects, runtime" position="2">
+				<metadata-artifact status="no" details="" size="1677" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.common\2.0.0.RELEASE\ivy-2.0.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.common/2.0.0.RELEASE/ivy-2.0.0.RELEASE.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor" conf="compile, aspects, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="1.0.0.RELEASE"/>
+				<caller organisation="com.springsource.util" name="com.springsource.util.osgi" conf="compile, aspects, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="latest.integration" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="com.springsource.util.common-sources" type="src" ext="jar" status="no" details="" size="37156" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.common\2.0.0.RELEASE\com.springsource.util.common-sources-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.common/2.0.0.RELEASE/com.springsource.util.common-sources-2.0.0.RELEASE.jar"/>
+					</artifact>
+					<artifact name="com.springsource.util.common" type="jar" ext="jar" status="no" details="" size="42376" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\com.springsource.util\com.springsource.util.common\2.0.0.RELEASE\com.springsource.util.common-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/com.springsource.util/com.springsource.util.common/2.0.0.RELEASE/com.springsource.util.common-2.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.osgi" name="org.osgi.core" >
+			<revision name="4.1.0" status="release" pubdate="20091027092531" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile, runtime" position="8">
+				<metadata-artifact status="no" details="" size="940" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.osgi\org.osgi.core\4.1.0\ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.osgi/org.osgi.core/4.1.0/ivy-4.1.0.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor.blint" conf="compile, aspects, runtime" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="1.0.0.RELEASE"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor" conf="compile, aspects, runtime" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="1.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="org.osgi.core" type="jar" ext="jar" status="no" details="" size="163485" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.osgi\org.osgi.core\4.1.0\org.osgi.core-4.1.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.osgi/org.osgi.core/4.1.0/org.osgi.core-4.1.0.jar"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11358" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.osgi\org.osgi.core\4.1.0\license-4.1.0.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.osgi/org.osgi.core/4.1.0/license-4.1.0.txt"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objectweb.asm" name="com.springsource.org.objectweb.asm.commons" >
+			<revision name="3.1.0" status="release" pubdate="20090204140144" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile, runtime" position="7">
+				<metadata-artifact status="no" details="" size="1376" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.commons\3.1.0\ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.commons/3.1.0/ivy-3.1.0.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor" conf="compile, aspects, runtime" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="1.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="com.springsource.org.objectweb.asm.commons" type="jar" ext="jar" status="no" details="" size="33255" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.commons\3.1.0\com.springsource.org.objectweb.asm.commons-3.1.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.commons/3.1.0/com.springsource.org.objectweb.asm.commons-3.1.0.jar"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="1597" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.commons\3.1.0\license-3.1.0.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.commons/3.1.0/license-3.1.0.txt"/>
+					</artifact>
+					<artifact name="com.springsource.org.objectweb.asm.commons-sources" type="src" ext="jar" status="no" details="" size="57970" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.commons\3.1.0\com.springsource.org.objectweb.asm.commons-sources-3.1.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.commons/3.1.0/com.springsource.org.objectweb.asm.commons-sources-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objectweb.asm" name="com.springsource.org.objectweb.asm.tree" >
+			<revision name="3.1.0" status="release" pubdate="20090204134320" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile, runtime" position="6">
+				<metadata-artifact status="no" details="" size="1244" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.tree\3.1.0\ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.tree/3.1.0/ivy-3.1.0.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor" conf="compile, aspects, runtime" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="1.0.0.RELEASE"/>
+				<caller organisation="org.objectweb.asm" name="com.springsource.org.objectweb.asm.commons" conf="compile, runtime" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="3.1.0"/>
+				<artifacts>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="1598" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.tree\3.1.0\license-3.1.0.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.tree/3.1.0/license-3.1.0.txt"/>
+					</artifact>
+					<artifact name="com.springsource.org.objectweb.asm.tree-sources" type="src" ext="jar" status="no" details="" size="85338" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.tree\3.1.0\com.springsource.org.objectweb.asm.tree-sources-3.1.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.tree/3.1.0/com.springsource.org.objectweb.asm.tree-sources-3.1.0.jar"/>
+					</artifact>
+					<artifact name="com.springsource.org.objectweb.asm.tree" type="jar" ext="jar" status="no" details="" size="22502" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.tree\3.1.0\com.springsource.org.objectweb.asm.tree-3.1.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.tree/3.1.0/com.springsource.org.objectweb.asm.tree-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objectweb.asm" name="com.springsource.org.objectweb.asm" >
+			<revision name="3.1.0" status="release" pubdate="20090204134257" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile, runtime" position="5">
+				<metadata-artifact status="no" details="" size="1077" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm\3.1.0\ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm/3.1.0/ivy-3.1.0.xml"/>
+				<caller organisation="com.springsource.bundlor" name="com.springsource.bundlor" conf="compile, aspects, runtime" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="1.0.0.RELEASE"/>
+				<caller organisation="org.objectweb.asm" name="com.springsource.org.objectweb.asm.commons" conf="compile, runtime" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="3.1.0"/>
+				<caller organisation="org.objectweb.asm" name="com.springsource.org.objectweb.asm.tree" conf="compile, runtime" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="3.1.0"/>
+				<artifacts>
+					<artifact name="com.springsource.org.objectweb.asm-sources" type="src" ext="jar" status="no" details="" size="109172" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm\3.1.0\com.springsource.org.objectweb.asm-sources-3.1.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm/3.1.0/com.springsource.org.objectweb.asm-sources-3.1.0.jar"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="1597" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm\3.1.0\license-3.1.0.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm/3.1.0/license-3.1.0.txt"/>
+					</artifact>
+					<artifact name="com.springsource.org.objectweb.asm" type="jar" ext="jar" status="no" details="" size="43557" time="0" location="D:\masterSpring\spring\projects\org.springframework.integration-tests\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm\3.1.0\com.springsource.org.objectweb.asm-3.1.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm/3.1.0/com.springsource.org.objectweb.asm-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

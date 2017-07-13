@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.springframework.build"
+		module="org.springframework.build.ant-caller"
+		revision="working"
+		conf="runtime"
+		confs="runtime"
+		date="20110117233025"/>
+	<dependencies>
+		<module organisation="org.springframework.build" name="org.springframework.build.ant" >
+			<revision name="1.1.0.RELEASE" status="release" pubdate="20090327124235" resolver="bundle-release-repository" artresolver="bundle-release-repository" downloaded="false" searched="false" default="false" conf="compile, aspects, runtime" position="0">
+				<metadata-artifact status="no" details="" size="1867" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.springframework.build\org.springframework.build.ant\1.1.0.RELEASE\ivy-1.1.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/release/org.springframework.build/org.springframework.build.ant/1.1.0.RELEASE/ivy-1.1.0.RELEASE.xml"/>
+				<caller organisation="org.springframework.build" name="org.springframework.build.ant-caller" conf="runtime" rev="1.1.0.RELEASE" rev-constraint-default="1.1.0.RELEASE" rev-constraint-dynamic="1.1.0.RELEASE" callerrev="working"/>
+				<artifacts>
+					<artifact name="org.springframework.build.ant-sources" type="src" ext="jar" status="no" details="" size="13721" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.springframework.build\org.springframework.build.ant\1.1.0.RELEASE\org.springframework.build.ant-sources-1.1.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/org.springframework.build/org.springframework.build.ant/1.1.0.RELEASE/org.springframework.build.ant-sources-1.1.0.RELEASE.jar"/>
+					</artifact>
+					<artifact name="org.springframework.build.ant" type="jar" ext="jar" status="no" details="" size="15925" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.springframework.build\org.springframework.build.ant\1.1.0.RELEASE\org.springframework.build.ant-1.1.0.RELEASE.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/release/org.springframework.build/org.springframework.build.ant/1.1.0.RELEASE/org.springframework.build.ant-1.1.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

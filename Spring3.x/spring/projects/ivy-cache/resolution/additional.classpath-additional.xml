@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.springframework"
+		module="org.springframework.integration-tests"
+		revision="working@quickselect-PC"
+		conf="additional"
+		confs="additional"
+		date="20110117232931"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

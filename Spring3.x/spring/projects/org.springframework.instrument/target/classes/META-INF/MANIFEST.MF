@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.instrument;version="3.0.5.BUILD-20
+ 110117152612"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.5.BUILD-20110117152612
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Instrument
+Bundle-ManifestVersion: 2
+Premain-Class: org.springframework.instrument.InstrumentationSavingAge
+ nt
+Bundle-SymbolicName: org.springframework.instrument
+

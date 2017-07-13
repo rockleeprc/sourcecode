@@ -1,0 +1,76 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.jms;version="3.0.5.BUILD-201101171
+ 52612";uses:="javax.jms,org.springframework.core",org.springframework
+ .jms.config;version="3.0.5.BUILD-20110117152612";uses:="org.springfra
+ mework.beans.factory.config,org.springframework.beans.factory.xml,org
+ .w3c.dom",org.springframework.jms.connection;version="3.0.5.BUILD-201
+ 10117152612";uses:="javax.jms,org.springframework.beans.factory,org.s
+ pringframework.jms,org.springframework.transaction,org.springframewor
+ k.transaction.support",org.springframework.jms.core;version="3.0.5.BU
+ ILD-20110117152612";uses:="javax.jms,org.springframework.jms,org.spri
+ ngframework.jms.connection,org.springframework.jms.support.converter,
+ org.springframework.jms.support.destination",org.springframework.jms.
+ core.support;version="3.0.5.BUILD-20110117152612";uses:="javax.jms,or
+ g.springframework.beans.factory,org.springframework.jms.core",org.spr
+ ingframework.jms.listener;version="3.0.5.BUILD-20110117152612";uses:=
+ "javax.jms,org.apache.commons.logging,org.springframework.beans.facto
+ ry,org.springframework.context,org.springframework.core.task,org.spri
+ ngframework.jms,org.springframework.jms.connection,org.springframewor
+ k.jms.support.destination,org.springframework.scheduling,org.springfr
+ amework.transaction,org.springframework.util",org.springframework.jms
+ .listener.adapter;version="3.0.5.BUILD-20110117152612";uses:="javax.j
+ ms,org.springframework.jms,org.springframework.jms.listener,org.sprin
+ gframework.jms.support.converter,org.springframework.jms.support.dest
+ ination",org.springframework.jms.listener.endpoint;version="3.0.5.BUI
+ LD-20110117152612";uses:="javax.jms,javax.resource,javax.resource.spi
+ ,org.springframework.beans,org.springframework.jca.endpoint,org.sprin
+ gframework.jms.support.destination",org.springframework.jms.remoting;
+ version="3.0.5.BUILD-20110117152612";uses:="javax.jms,org.aopalliance
+ .intercept,org.springframework.beans.factory,org.springframework.jms.
+ listener,org.springframework.jms.support.converter,org.springframewor
+ k.jms.support.destination,org.springframework.remoting,org.springfram
+ ework.remoting.support",org.springframework.jms.support;version="3.0.
+ 5.BUILD-20110117152612";uses:="javax.jms,org.springframework.beans.fa
+ ctory,org.springframework.jms",org.springframework.jms.support.conver
+ ter;version="3.0.5.BUILD-20110117152612";uses:="javax.jms,org.springf
+ ramework.beans.factory,org.springframework.jms,org.springframework.ox
+ m",org.springframework.jms.support.destination;version="3.0.5.BUILD-2
+ 0110117152612";uses:="javax.jms,org.springframework.beans.factory,org
+ .springframework.jms,org.springframework.jms.support,org.springframew
+ ork.jndi"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.5.BUILD-20110117152612
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring JMS
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.jms
+Import-Package: javax.jms;version="[1.1.0, 2.0.0)",javax.naming;versio
+ n="0";resolution:="optional",javax.resource;version="[1.5.0, 2.0.0)";
+ resolution:="optional",javax.resource.spi;version="[1.5.0, 2.0.0)";re
+ solution:="optional",javax.resource.spi.endpoint;version="[1.5.0, 2.0
+ .0)";resolution:="optional",javax.xml.transform;version="0";resolutio
+ n:="optional",javax.xml.transform.stream;version="0";resolution:="opt
+ ional",org.aopalliance.intercept;version="[1.0.0, 2.0.0)";resolution:
+ ="optional",org.apache.commons.logging;version="[1.1.1, 2.0.0)",org.s
+ pringframework.aop.framework;version="[3.0.5,3.0.6)";resolution:="opt
+ ional",org.springframework.aop.support;version="[3.0.5,3.0.6)";resolu
+ tion:="optional",org.springframework.beans;version="[3.0.5,3.0.6)",or
+ g.springframework.beans.factory;version="[3.0.5,3.0.6)",org.springfra
+ mework.beans.factory.config;version="[3.0.5,3.0.6)",org.springframewo
+ rk.beans.factory.parsing;version="[3.0.5,3.0.6)",org.springframework.
+ beans.factory.support;version="[3.0.5,3.0.6)",org.springframework.bea
+ ns.factory.xml;version="[3.0.5,3.0.6)",org.springframework.context;ve
+ rsion="[3.0.5,3.0.6)";resolution:="optional",org.springframework.core
+ ;version="[3.0.5,3.0.6)",org.springframework.core.task;version="[3.0.
+ 5,3.0.6)",org.springframework.jca.endpoint;version="[3.0.5,3.0.6)";re
+ solution:="optional",org.springframework.jndi;version="[3.0.5,3.0.6)"
+ ;resolution:="optional",org.springframework.oxm;version="[3.0.5,3.0.6
+ )";resolution:="optional",org.springframework.remoting;version="[3.0.
+ 5,3.0.6)";resolution:="optional",org.springframework.remoting.support
+ ;version="[3.0.5,3.0.6)";resolution:="optional",org.springframework.s
+ cheduling;version="[3.0.5,3.0.6)";resolution:="optional",org.springfr
+ amework.transaction;version="[3.0.5,3.0.6)";resolution:="optional",or
+ g.springframework.transaction.support;version="[3.0.5,3.0.6)";resolut
+ ion:="optional",org.springframework.util;version="[3.0.5,3.0.6)",org.
+ w3c.dom;version="0";resolution:="optional"
+

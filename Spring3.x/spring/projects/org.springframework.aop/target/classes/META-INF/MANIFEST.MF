@@ -1,0 +1,99 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.aop;version="3.0.5.BUILD-201101171
+ 52612";uses:="org.aopalliance.aop,org.aopalliance.intercept,org.sprin
+ gframework.core",org.springframework.aop.aspectj;version="3.0.5.BUILD
+ -20110117152612";uses:="org.aopalliance.aop,org.aopalliance.intercept
+ ,org.aspectj.bridge,org.aspectj.lang,org.aspectj.lang.reflect,org.asp
+ ectj.runtime.internal,org.aspectj.weaver.ast,org.aspectj.weaver.inter
+ nal.tools,org.aspectj.weaver.reflect,org.aspectj.weaver.tools,org.spr
+ ingframework.aop,org.springframework.aop.support,org.springframework.
+ beans.factory,org.springframework.core",org.springframework.aop.aspec
+ tj.annotation;version="3.0.5.BUILD-20110117152612";uses:="org.aopalli
+ ance.aop,org.aspectj.lang.reflect,org.springframework.aop,org.springf
+ ramework.aop.aspectj,org.springframework.aop.aspectj.autoproxy,org.sp
+ ringframework.aop.framework,org.springframework.aop.support,org.sprin
+ gframework.beans.factory,org.springframework.beans.factory.config,org
+ .springframework.core,org.springframework.util",org.springframework.a
+ op.aspectj.autoproxy;version="3.0.5.BUILD-20110117152612";uses:="org.
+ aspectj.util,org.springframework.aop,org.springframework.aop.framewor
+ k.autoproxy",org.springframework.aop.config;version="3.0.5.BUILD-2011
+ 0117152612";uses:="org.springframework.aop.aspectj,org.springframewor
+ k.beans.factory,org.springframework.beans.factory.config,org.springfr
+ amework.beans.factory.parsing,org.springframework.beans.factory.suppo
+ rt,org.springframework.beans.factory.xml,org.w3c.dom",org.springframe
+ work.aop.framework;version="3.0.5.BUILD-20110117152612";uses:="net.sf
+ .cglib.proxy,org.aopalliance.aop,org.aopalliance.intercept,org.spring
+ framework.aop,org.springframework.aop.framework.adapter,org.springfra
+ mework.beans,org.springframework.beans.factory,org.springframework.co
+ re",org.springframework.aop.framework.adapter;version="3.0.5.BUILD-20
+ 110117152612";uses:="org.aopalliance.aop,org.aopalliance.intercept,or
+ g.springframework.aop,org.springframework.beans,org.springframework.b
+ eans.factory.config",org.springframework.aop.framework.autoproxy;vers
+ ion="3.0.5.BUILD-20110117152612";uses:="org.springframework.aop,org.s
+ pringframework.aop.framework,org.springframework.aop.framework.adapte
+ r,org.springframework.beans,org.springframework.beans.factory,org.spr
+ ingframework.beans.factory.config,org.springframework.core",org.sprin
+ gframework.aop.framework.autoproxy.target;version="3.0.5.BUILD-201101
+ 17152612";uses:="org.springframework.aop,org.springframework.aop.fram
+ ework.autoproxy,org.springframework.aop.target,org.springframework.be
+ ans.factory,org.springframework.beans.factory.config,org.springframew
+ ork.beans.factory.support",org.springframework.aop.interceptor;versio
+ n="3.0.5.BUILD-20110117152612";uses:="org.aopalliance.aop,org.aopalli
+ ance.intercept,org.apache.commons.logging,org.springframework.aop,org
+ .springframework.aop.support,org.springframework.beans.factory,org.sp
+ ringframework.core,org.springframework.core.task,org.springframework.
+ util",org.springframework.aop.scope;version="3.0.5.BUILD-201101171526
+ 12";uses:="org.springframework.aop,org.springframework.aop.framework,
+ org.springframework.beans.factory,org.springframework.beans.factory.c
+ onfig,org.springframework.beans.factory.support",org.springframework.
+ aop.support;version="3.0.5.BUILD-20110117152612";uses:="org.aopallian
+ ce.aop,org.aopalliance.intercept,org.springframework.aop,org.springfr
+ amework.beans.factory,org.springframework.core",org.springframework.a
+ op.support.annotation;version="3.0.5.BUILD-20110117152612";uses:="org
+ .springframework.aop,org.springframework.aop.support",org.springframe
+ work.aop.target;version="3.0.5.BUILD-20110117152612";uses:="org.apach
+ e.commons.pool,org.springframework.aop,org.springframework.aop.suppor
+ t,org.springframework.beans,org.springframework.beans.factory",org.sp
+ ringframework.aop.target.dynamic;version="3.0.5.BUILD-20110117152612"
+ ;uses:="org.springframework.aop,org.springframework.beans.factory"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.5.BUILD-20110117152612
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring AOP
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.aop
+Import-Package: com.jamonapi;version="[2.4.0, 3.0.0)";resolution:="opt
+ ional",net.sf.cglib.core;version="[2.1.3, 3.0.0)";resolution:="option
+ al",net.sf.cglib.proxy;version="[2.1.3, 3.0.0)";resolution:="optional
+ ",net.sf.cglib.transform.impl;version="[2.1.3, 3.0.0)";resolution:="o
+ ptional",org.aopalliance.aop;version="[1.0.0, 2.0.0)",org.aopalliance
+ .intercept;version="[1.0.0, 2.0.0)",org.apache.commons.logging;versio
+ n="[1.1.1, 2.0.0)",org.apache.commons.pool;version="[1.3.0, 2.0.0)";r
+ esolution:="optional",org.apache.commons.pool.impl;version="[1.3.0, 2
+ .0.0)";resolution:="optional",org.aspectj.bridge;version="[1.5.4, 2.0
+ .0)";resolution:="optional",org.aspectj.lang;version="[1.5.4, 2.0.0)"
+ ;resolution:="optional",org.aspectj.lang.annotation;version="[1.5.4, 
+ 2.0.0)";resolution:="optional",org.aspectj.lang.reflect;version="[1.5
+ .4, 2.0.0)";resolution:="optional",org.aspectj.runtime.internal;versi
+ on="[1.5.4, 2.0.0)";resolution:="optional",org.aspectj.util;version="
+ [1.5.4, 2.0.0)";resolution:="optional",org.aspectj.weaver;version="[1
+ .5.4, 2.0.0)";resolution:="optional",org.aspectj.weaver.ast;version="
+ [1.5.4, 2.0.0)";resolution:="optional",org.aspectj.weaver.internal.to
+ ols;version="[1.5.4, 2.0.0)";resolution:="optional",org.aspectj.weave
+ r.patterns;version="[1.5.4, 2.0.0)";resolution:="optional",org.aspect
+ j.weaver.reflect;version="[1.5.4, 2.0.0)";resolution:="optional",org.
+ aspectj.weaver.tools;version="[1.5.4, 2.0.0)";resolution:="optional",
+ org.springframework.beans;version="[3.0.5,3.0.6)";resolution:="option
+ al",org.springframework.beans.factory;version="[3.0.5,3.0.6)";resolut
+ ion:="optional",org.springframework.beans.factory.config;version="[3.
+ 0.5,3.0.6)";resolution:="optional",org.springframework.beans.factory.
+ parsing;version="[3.0.5,3.0.6)";resolution:="optional",org.springfram
+ ework.beans.factory.support;version="[3.0.5,3.0.6)";resolution:="opti
+ onal",org.springframework.beans.factory.xml;version="[3.0.5,3.0.6)";r
+ esolution:="optional",org.springframework.core;version="[3.0.5,3.0.6)
+ ",org.springframework.core.annotation;version="[3.0.5,3.0.6)",org.spr
+ ingframework.core.task;version="[3.0.5,3.0.6)",org.springframework.co
+ re.task.support;version="[3.0.5,3.0.6)",org.springframework.util;vers
+ ion="[3.0.5,3.0.6)",org.springframework.util.xml;version="[3.0.5,3.0.
+ 6)",org.w3c.dom;version="0";resolution:="optional"
+

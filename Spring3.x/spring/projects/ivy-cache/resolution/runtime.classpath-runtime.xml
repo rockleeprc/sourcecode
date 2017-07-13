@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.springframework"
+		module="org.springframework.beans"
+		revision="working@quickselect-PC"
+		conf="runtime"
+		confs="runtime"
+		date="20110117233025"/>
+	<dependencies>
+		<module organisation="org.springframework" name="org.springframework.core" >
+			<revision name="3.0.5.BUILD-20110117152612" status="integration" pubdate="20110117152612" resolver="integration" artresolver="integration" downloaded="false" searched="false" default="false" conf="compile, aspects" position="1">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3269" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.springframework\org.springframework.core\3.0.5.BUILD-20110117152612\ivy-3.0.5.BUILD-20110117152612.xml" searched="false" origin-is-local="true" origin-location="D:\masterSpring\spring\projects\org.springframework.expression\..\integration-repo\org.springframework\org.springframework.core\3.0.5.BUILD-20110117152612\ivy-3.0.5.BUILD-20110117152612.xml"/>
+				<caller organisation="org.springframework" name="org.springframework.beans" conf="compile, aspects, runtime" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working@quickselect-PC"/>
+				<artifacts>
+					<artifact name="notice" type="notice" ext="txt" status="no" details="" size="1037" time="0" location="D:\masterSpring\spring\projects\org.springframework.expression\..\integration-repo\org.springframework\org.springframework.core\3.0.5.BUILD-20110117152612\notice-3.0.5.BUILD-20110117152612.txt">
+						<origin-location is-local="true" location="D:\masterSpring\spring\projects\org.springframework.expression\..\integration-repo\org.springframework\org.springframework.core\3.0.5.BUILD-20110117152612\notice-3.0.5.BUILD-20110117152612.txt"/>
+					</artifact>
+					<artifact name="org.springframework.core-sources" type="src" ext="jar" status="no" details="" size="379006" time="0" location="D:\masterSpring\spring\projects\org.springframework.expression\..\integration-repo\org.springframework\org.springframework.core\3.0.5.BUILD-20110117152612\org.springframework.core-sources-3.0.5.BUILD-20110117152612.jar">
+						<origin-location is-local="true" location="D:\masterSpring\spring\projects\org.springframework.expression\..\integration-repo\org.springframework\org.springframework.core\3.0.5.BUILD-20110117152612\org.springframework.core-sources-3.0.5.BUILD-20110117152612.jar"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11357" time="0" location="D:\masterSpring\spring\projects\org.springframework.expression\..\integration-repo\org.springframework\org.springframework.core\3.0.5.BUILD-20110117152612\license-3.0.5.BUILD-20110117152612.txt">
+						<origin-location is-local="true" location="D:\masterSpring\spring\projects\org.springframework.expression\..\integration-repo\org.springframework\org.springframework.core\3.0.5.BUILD-20110117152612\license-3.0.5.BUILD-20110117152612.txt"/>
+					</artifact>
+					<artifact name="org.springframework.core" type="jar" ext="jar" status="no" details="" size="382506" time="0" location="D:\masterSpring\spring\projects\org.springframework.expression\..\integration-repo\org.springframework\org.springframework.core\3.0.5.BUILD-20110117152612\org.springframework.core-3.0.5.BUILD-20110117152612.jar">
+						<origin-location is-local="true" location="D:\masterSpring\spring\projects\org.springframework.expression\..\integration-repo\org.springframework\org.springframework.core\3.0.5.BUILD-20110117152612\org.springframework.core-3.0.5.BUILD-20110117152612.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="org.springframework.asm" >
+			<revision name="3.0.5.BUILD-20110117152612" status="integration" pubdate="20110117152612" resolver="integration" artresolver="integration" downloaded="false" searched="false" default="false" conf="compile, aspects" position="2">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2115" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.springframework\org.springframework.asm\3.0.5.BUILD-20110117152612\ivy-3.0.5.BUILD-20110117152612.xml" searched="false" origin-is-local="true" origin-location="D:\masterSpring\spring\projects\org.springframework.core\..\integration-repo\org.springframework\org.springframework.asm\3.0.5.BUILD-20110117152612\ivy-3.0.5.BUILD-20110117152612.xml"/>
+				<caller organisation="org.springframework" name="org.springframework.beans" conf="compile, aspects, runtime" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working@quickselect-PC"/>
+				<artifacts>
+					<artifact name="notice" type="notice" ext="txt" status="no" details="" size="1037" time="0" location="D:\masterSpring\spring\projects\org.springframework.core\..\integration-repo\org.springframework\org.springframework.asm\3.0.5.BUILD-20110117152612\notice-3.0.5.BUILD-20110117152612.txt">
+						<origin-location is-local="true" location="D:\masterSpring\spring\projects\org.springframework.core\..\integration-repo\org.springframework\org.springframework.asm\3.0.5.BUILD-20110117152612\notice-3.0.5.BUILD-20110117152612.txt"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11357" time="0" location="D:\masterSpring\spring\projects\org.springframework.core\..\integration-repo\org.springframework\org.springframework.asm\3.0.5.BUILD-20110117152612\license-3.0.5.BUILD-20110117152612.txt">
+						<origin-location is-local="true" location="D:\masterSpring\spring\projects\org.springframework.core\..\integration-repo\org.springframework\org.springframework.asm\3.0.5.BUILD-20110117152612\license-3.0.5.BUILD-20110117152612.txt"/>
+					</artifact>
+					<artifact name="org.springframework.asm-sources" type="src" ext="jar" status="no" details="" size="544" time="0" location="D:\masterSpring\spring\projects\org.springframework.core\..\integration-repo\org.springframework\org.springframework.asm\3.0.5.BUILD-20110117152612\org.springframework.asm-sources-3.0.5.BUILD-20110117152612.jar">
+						<origin-location is-local="true" location="D:\masterSpring\spring\projects\org.springframework.core\..\integration-repo\org.springframework\org.springframework.asm\3.0.5.BUILD-20110117152612\org.springframework.asm-sources-3.0.5.BUILD-20110117152612.jar"/>
+					</artifact>
+					<artifact name="org.springframework.asm" type="jar" ext="jar" status="no" details="" size="53097" time="0" location="D:\masterSpring\spring\projects\org.springframework.core\..\integration-repo\org.springframework\org.springframework.asm\3.0.5.BUILD-20110117152612\org.springframework.asm-3.0.5.BUILD-20110117152612.jar">
+						<origin-location is-local="true" location="D:\masterSpring\spring\projects\org.springframework.core\..\integration-repo\org.springframework\org.springframework.asm\3.0.5.BUILD-20110117152612\org.springframework.asm-3.0.5.BUILD-20110117152612.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="com.springsource.org.apache.commons.logging" >
+			<revision name="1.1.1" status="release" pubdate="20090204130447" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile" position="0">
+				<metadata-artifact status="no" details="" size="1367" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.apache.commons\com.springsource.org.apache.commons.logging\1.1.1\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1/ivy-1.1.1.xml"/>
+				<caller organisation="org.springframework" name="org.springframework.core" conf="compile, aspects" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="3.0.5.BUILD-20110117152612"/>
+				<caller organisation="org.springframework" name="org.springframework.beans" conf="compile, aspects, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="working@quickselect-PC"/>
+				<artifacts>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11358" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.apache.commons\com.springsource.org.apache.commons.logging\1.1.1\license-1.1.1.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1/license-1.1.1.txt"/>
+					</artifact>
+					<artifact name="com.springsource.org.apache.commons.logging" type="jar" ext="jar" status="no" details="" size="61464" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.apache.commons\com.springsource.org.apache.commons.logging\1.1.1\com.springsource.org.apache.commons.logging-1.1.1.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+					</artifact>
+					<artifact name="com.springsource.org.apache.commons.logging-sources" type="src" ext="jar" status="no" details="" size="74976" time="0" location="D:\masterSpring\spring\projects\org.springframework.beans\..\ivy-cache\repository\org.apache.commons\com.springsource.org.apache.commons.logging\1.1.1\com.springsource.org.apache.commons.logging-sources-1.1.1.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-sources-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

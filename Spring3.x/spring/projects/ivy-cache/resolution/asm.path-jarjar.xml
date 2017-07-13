@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.springframework"
+		module="org.springframework.asm"
+		revision="working@quickselect-PC"
+		conf="jarjar"
+		confs="jarjar"
+		date="20110117232737"/>
+	<dependencies>
+		<module organisation="org.objectweb.asm" name="com.springsource.org.objectweb.asm.commons" >
+			<revision name="2.2.3" status="release" pubdate="20090204171051" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile, runtime" position="1">
+				<metadata-artifact status="no" details="" size="1252" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.commons\2.2.3\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.commons/2.2.3/ivy-2.2.3.xml"/>
+				<caller organisation="org.springframework" name="org.springframework.asm" conf="jarjar" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="working@quickselect-PC"/>
+				<artifacts>
+					<artifact name="com.springsource.org.objectweb.asm.commons-sources" type="src" ext="jar" status="no" details="" size="28102" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.commons\2.2.3\com.springsource.org.objectweb.asm.commons-sources-2.2.3.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.commons/2.2.3/com.springsource.org.objectweb.asm.commons-sources-2.2.3.jar"/>
+					</artifact>
+					<artifact name="com.springsource.org.objectweb.asm.commons" type="jar" ext="jar" status="no" details="" size="15432" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.commons\2.2.3\com.springsource.org.objectweb.asm.commons-2.2.3.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.commons/2.2.3/com.springsource.org.objectweb.asm.commons-2.2.3.jar"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="1597" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm.commons\2.2.3\license-2.2.3.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm.commons/2.2.3/license-2.2.3.txt"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objectweb.asm" name="com.springsource.org.objectweb.asm" >
+			<revision name="2.2.3" status="release" pubdate="20090204171231" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile, runtime" position="0">
+				<metadata-artifact status="no" details="" size="1076" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm\2.2.3\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm/2.2.3/ivy-2.2.3.xml"/>
+				<caller organisation="org.springframework" name="org.springframework.asm" conf="jarjar" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="working@quickselect-PC"/>
+				<caller organisation="org.objectweb.asm" name="com.springsource.org.objectweb.asm.commons" conf="compile, runtime" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="com.springsource.org.objectweb.asm" type="jar" ext="jar" status="no" details="" size="35333" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm\2.2.3\com.springsource.org.objectweb.asm-2.2.3.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm/2.2.3/com.springsource.org.objectweb.asm-2.2.3.jar"/>
+					</artifact>
+					<artifact name="com.springsource.org.objectweb.asm-sources" type="src" ext="jar" status="no" details="" size="266812" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm\2.2.3\com.springsource.org.objectweb.asm-sources-2.2.3.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm/2.2.3/com.springsource.org.objectweb.asm-sources-2.2.3.jar"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="1597" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\org.objectweb.asm\com.springsource.org.objectweb.asm\2.2.3\license-2.2.3.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/org.objectweb.asm/com.springsource.org.objectweb.asm/2.2.3/license-2.2.3.txt"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+	<info organisation="org.aspectj"
+		module="com.springsource.org.aspectj.tools-caller"
+		revision="working"
+		status="integration"
+		publication="20110117232907"
+		default="true"
+	/>
+	<configurations>
+		<conf name="runtime" visibility="public"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.aspectj" name="com.springsource.org.aspectj.tools" rev="1.6.6.RELEASE" force="true" conf="runtime->runtime"/>
+	</dependencies>
+</ivy-module>

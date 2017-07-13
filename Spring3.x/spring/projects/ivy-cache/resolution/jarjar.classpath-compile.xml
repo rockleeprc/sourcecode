@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.google.jarjar"
+		module="com.springsource.com.tonicsystems.jarjar-caller"
+		revision="working"
+		conf="compile"
+		confs="compile"
+		date="20110117232737"/>
+	<dependencies>
+		<module organisation="com.google.jarjar" name="com.springsource.com.tonicsystems.jarjar" >
+			<revision name="1.0.0" status="release" pubdate="20090320105846" resolver="bundle-external-repository" artresolver="bundle-external-repository" downloaded="false" searched="false" default="false" conf="compile" position="0">
+				<metadata-artifact status="no" details="" size="1247" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\com.google.jarjar\com.springsource.com.tonicsystems.jarjar\1.0.0\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="s3://repository.springsource.com/ivy/bundles/external/com.google.jarjar/com.springsource.com.tonicsystems.jarjar/1.0.0/ivy-1.0.0.xml"/>
+				<caller organisation="com.google.jarjar" name="com.springsource.com.tonicsystems.jarjar-caller" conf="compile" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working"/>
+				<artifacts>
+					<artifact name="com.springsource.com.tonicsystems.jarjar-sources" type="src" ext="jar" status="no" details="" size="43562" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\com.google.jarjar\com.springsource.com.tonicsystems.jarjar\1.0.0\com.springsource.com.tonicsystems.jarjar-sources-1.0.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/com.google.jarjar/com.springsource.com.tonicsystems.jarjar/1.0.0/com.springsource.com.tonicsystems.jarjar-sources-1.0.0.jar"/>
+					</artifact>
+					<artifact name="com.springsource.com.tonicsystems.jarjar" type="jar" ext="jar" status="no" details="" size="112910" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\com.google.jarjar\com.springsource.com.tonicsystems.jarjar\1.0.0\com.springsource.com.tonicsystems.jarjar-1.0.0.jar">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/com.google.jarjar/com.springsource.com.tonicsystems.jarjar/1.0.0/com.springsource.com.tonicsystems.jarjar-1.0.0.jar"/>
+					</artifact>
+					<artifact name="license" type="license" ext="txt" status="no" details="" size="11358" time="0" location="D:\masterSpring\spring\projects\org.springframework.asm\..\ivy-cache\repository\com.google.jarjar\com.springsource.com.tonicsystems.jarjar\1.0.0\license-1.0.0.txt">
+						<origin-location is-local="false" location="s3://repository.springsource.com/ivy/bundles/external/com.google.jarjar/com.springsource.com.tonicsystems.jarjar/1.0.0/license-1.0.0.txt"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
