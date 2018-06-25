@@ -253,8 +253,19 @@ public abstract class AbstractHandlerMapping extends WebApplicationObjectSupport
 	 */
 	@Override
 	protected void initApplicationContext() throws BeansException {
+		/**
+		 * 提供给子类添加/修改Interceptor的入口，现有SpringMVC未实现
+		 */
 		extendInterceptors(this.interceptors);
+		/**
+		 * 用SpringMVC容器和父容器中的HandlerInterceptor类型bean填充adaptedInterceptors
+		 */
 		detectMappedInterceptors(this.adaptedInterceptors);
+		/**
+		 * 将interceptors中内容按对象类型添加到adaptedInterceptors
+		 * HandlerInterceptor和WebRequestInterceptor不同Interceptor类型
+		 * @see AbstractHandlerMapping#adaptInterceptor(java.lang.Object)
+		 */
 		initInterceptors();
 	}
 
@@ -361,6 +372,9 @@ public abstract class AbstractHandlerMapping extends WebApplicationObjectSupport
 	@Override
 	@Nullable
 	public final HandlerExecutionChain getHandler(HttpServletRequest request) throws Exception {
+		/**
+		 * 模板方法，子类具体实现获取handler的方式
+		 */
 		Object handler = getHandlerInternal(request);
 		if (handler == null) {
 			handler = getDefaultHandler();
@@ -370,10 +384,16 @@ public abstract class AbstractHandlerMapping extends WebApplicationObjectSupport
 		}
 		// Bean name or resolved handler?
 		if (handler instanceof String) {
+			/**
+			 * handler是字符串，到SpringMVC容器中查找相应的Bean
+			 */
 			String handlerName = (String) handler;
 			handler = obtainApplicationContext().getBean(handlerName);
 		}
 
+		/**
+		 * 将handler封装为HandlerExecutionChain，并添加Interceptor
+		 */
 		HandlerExecutionChain executionChain = getHandlerExecutionChain(handler, request);
 
 		if (logger.isTraceEnabled()) {

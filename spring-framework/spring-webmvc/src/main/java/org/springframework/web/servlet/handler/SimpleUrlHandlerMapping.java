@@ -102,6 +102,9 @@ public class SimpleUrlHandlerMapping extends AbstractUrlHandlerMapping {
 	 */
 	@Override
 	public void initApplicationContext() throws BeansException {
+		/**
+		 * @see AbstractHandlerMapping#initApplicationContext()
+		 */
 		super.initApplicationContext();
 		registerHandlers(this.urlMap);
 	}

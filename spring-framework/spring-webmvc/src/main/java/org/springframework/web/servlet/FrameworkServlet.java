@@ -497,7 +497,13 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 		long startTime = System.currentTimeMillis();
 
 		try {
+			/**
+			 * 1、初始化WebApplicationContext
+			 */
 			this.webApplicationContext = initWebApplicationContext();
+			/**
+			 * 2、模板方法，子类未实现
+			 */
 			initFrameworkServlet();
 		}
 		catch (ServletException | RuntimeException ex) {
@@ -526,6 +532,10 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 				WebApplicationContextUtils.getWebApplicationContext(getServletContext());
 		WebApplicationContext wac = null;
 
+		/**
+		 * 方式一：通过构造方法注入，用于Servlet3.0以后的环境
+		 * @see FrameworkServlet#FrameworkServlet(org.springframework.web.context.WebApplicationContext)
+		 */
 		if (this.webApplicationContext != null) {
 			// A context instance was injected at construction time -> use it
 			wac = this.webApplicationContext;
@@ -543,6 +553,9 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 				}
 			}
 		}
+		/**
+		 * 方式二：WebApplicationContext已经存在，web.xml中配置DispatcherServlet时指定contextAttribute属性
+		 */
 		if (wac == null) {
 			// No context instance was injected at construction time -> see if one
 			// has been registered in the servlet context. If one exists, it is assumed
@@ -550,11 +563,17 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 			// user has performed any initialization such as setting the context id
 			wac = findWebApplicationContext();
 		}
+		/**
+		 * 方式三：前两种方式都无效时，创建WebApplicationContext
+		 */
 		if (wac == null) {
 			// No context instance is defined for this servlet -> create a local one
 			wac = createWebApplicationContext(rootContext);
 		}
 
+		/**
+		 * 只有方式二初始化WebApplicationContext时才会onRefresh()
+		 */
 		if (!this.refreshEventReceived) {
 			// Either the context is not a ConfigurableApplicationContext with refresh
 			// support or the context injected at construction time had already been
@@ -562,6 +581,9 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 			onRefresh(wac);
 		}
 
+		/**
+		 * 将WebApplicationContext保存在ServletContext中，可以在init-param参数中设置是否发布
+		 */
 		if (this.publishContext) {
 			// Publish the context as a servlet context attribute.
 			String attrName = getServletContextAttributeName();
@@ -809,6 +831,10 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 	 */
 	public void onApplicationEvent(ContextRefreshedEvent event) {
 		this.refreshEventReceived = true;
+		/**
+		 * DispatcherServlet初始化入口
+		 * @see DispatcherServlet#initStrategies(org.springframework.context.ApplicationContext)
+		 */
 		onRefresh(event.getApplicationContext());
 	}
 
@@ -972,6 +998,10 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 		initContextHolders(request, localeContext, requestAttributes);
 
 		try {
+			/**
+			 * 实际处理请求的入口
+			 * @see DispatcherServlet#doService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+			 */
 			doService(request, response);
 		}
 		catch (ServletException | IOException ex) {

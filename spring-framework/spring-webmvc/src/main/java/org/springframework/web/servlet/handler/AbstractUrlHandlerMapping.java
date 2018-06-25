@@ -120,6 +120,9 @@ public abstract class AbstractUrlHandlerMapping extends AbstractHandlerMapping i
 	@Nullable
 	protected Object getHandlerInternal(HttpServletRequest request) throws Exception {
 		String lookupPath = getUrlPathHelper().getLookupPathForRequest(request);
+		/**
+		 * 使用lookupPath从handlerMap中查找handler
+		 */
 		Object handler = lookupHandler(lookupPath, request);
 		if (handler == null) {
 			// We need to care for the default handler directly, since we need to
@@ -137,7 +140,14 @@ public abstract class AbstractUrlHandlerMapping extends AbstractHandlerMapping i
 					String handlerName = (String) rawHandler;
 					rawHandler = obtainApplicationContext().getBean(handlerName);
 				}
+				/**
+				 * 模板方法，校验handler和request是否匹配，子类未实现
+				 */
 				validateHandler(rawHandler, request);
+				/**
+				 * 给查找到的handler添加PathExposingHandlerInterceptor和UriTemplateVariablesHandlerInterceptor拦截器
+				 * 这两个拦截器在Interceptor.preHandle中调用
+				 */
 				handler = buildPathExposingHandler(rawHandler, lookupPath, lookupPath, null);
 			}
 		}
@@ -331,6 +341,9 @@ public abstract class AbstractUrlHandlerMapping extends AbstractHandlerMapping i
 		Object resolvedHandler = handler;
 
 		// Eagerly resolve handler if referencing singleton via name.
+		/**
+		 * 从SpringMVC容器中获取
+		 */
 		if (!this.lazyInitHandlers && handler instanceof String) {
 			String handlerName = (String) handler;
 			ApplicationContext applicationContext = obtainApplicationContext();
