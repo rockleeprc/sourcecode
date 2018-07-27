@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-Vendor: SpringSource
-Bundle-Version: 3.0.5.BUILD-20110117152612
-Tool: Bundlor 1.0.0.RELEASE
-Bundle-Name: Spring Framework Integration Tests
-Bundle-ManifestVersion: 2
-Bundle-SymbolicName: org.springframework.integration-tests
-

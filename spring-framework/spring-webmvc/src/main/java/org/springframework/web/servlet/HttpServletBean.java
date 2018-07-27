@@ -164,8 +164,8 @@ public abstract class HttpServletBean extends HttpServlet implements Environment
 				/**
 				 * 模板方法，做些初始化工作，bw为DispatcherServlet，子类目前未实现
 				 */
-				initBeanWrapper(bw);
 				bw.setPropertyValues(pvs, true);
+				initBeanWrapper(bw);
 			} catch (BeansException ex) {
 				if (logger.isErrorEnabled()) {
 					logger.error("Failed to set bean properties on servlet '" + getServletName() + "'", ex);
